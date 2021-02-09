@@ -6,9 +6,9 @@
 
 
 
-function displayDate() {
-    document.getElementById("date_and_time").innerHTML = Date(); //this displays the date and time when a button is pressed
-} 
+//function displayDate() {
+    //document.getElementById("date_and_time").innerHTML = Date(); //this displays the date and time when a button is pressed
+//} 
 
 var brown = "brown", orange = "orange"; // showing how multiple variables can be assigned at once.
 var brown = brown.fontcolor("brown");
@@ -18,8 +18,16 @@ var orange = orange.fontcolor("orange");
 document.write("the dog is " + brown + " the cat is " + orange);
 
 
-function myFunction() { //this will join the two strings of texts below when a button is pressed
-    var sentence = "Question: Why do cows wear bells?  ";
-    sentence += "   Answer: Because their horns dont work.";
-    document.getElementById("concatenate") .innerHTML = sentence;
+//function myFunction() { //this will join the two strings of texts below when a button is pressed
+    //var sentence = "Question: Why do cows wear bells?  ";
+    //sentence += "   Answer: Because their horns dont work.";
+    //document.getElementById("concatenate") .innerHTML = sentence;
+//}
+
+var x = myFunction(5, 10);
+document.getElementById("multiply").innerHTML = x;
+
+function myFunction(a, b) {
+    return a * b;
 }
+
