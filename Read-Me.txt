@@ -6,24 +6,22 @@ facilitated by The Tech Academy.
 
 Projects:
 
--**************
--***********
--********
+-Pizza Menu
+-Tic-Tac-Toe Game
+-Calculator
 
 
 Descriptions of projects:
 
--**************
-    ====================================================
-    ====================================================
-    ===================
+Pizza Menu
+	This project is a menu used to order pizza with a various selection of toppings.
+	It then takes the input information and calculates a proce for the order.
 
--**********
-    ====================================================
-    ====================================================
-    ===================
 
--*****
-    ====================================================
-    ====================================================
-    ===================
+Tic-Tac-Toe Game
+	The classic game of tic-tac-toe. This is a one player version with the computer
+	adding the O's to play against you.
+
+Calculator
+	A basic 4 function calculator. Users can add, subtract, multiply and divide
+	on a sleep web version of a calculator.
